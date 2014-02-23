@@ -54,6 +54,5 @@ PostIt.prototype.addADragListener = function(){
  }
 
 $(function() {
-  // This code will run when the DOM has finished loading
   new Board('#board');
 });
