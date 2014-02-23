@@ -32,8 +32,6 @@ var PostIt = function(x, y, class_name, handle) {
   $elem.css({left:x,top:y})
   this.class_name = class_name
   this.handle = handle
-  //unbind post it from #board click listener?
-
 };
 
 PostIt.prototype.stopPropagation = function(){
